@@ -1,0 +1,105 @@
+# =========================
+# Node.js / Next.js
+# =========================
+
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+
+# =========================
+# FastAPI
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads
+uploads/
+temp/
+tmp/
+
+# =========================
+# Prisma
+# =========================
+
+prisma/dev.db
+prisma/dev.db-journal
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# AI Models
+# =========================
+
+*.pt
+*.pth
+*.onnx
+*.engine
+weights/
+models/
+
+# =========================
+# Generated Files
+# =========================
+
+coverage/
+.cache/
+
+# =========================
+# Build Artifacts
+# =========================
+
+*.log
+*.tmp
+*.bak
